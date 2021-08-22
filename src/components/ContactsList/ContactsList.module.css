@@ -1,0 +1,46 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.contactsList {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contactName {
+  font-weight: bold;
+  margin: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+
+  margin-bottom: 10px;
+}
+
+.button {
+  color: rgb(91, 134, 50);
+  border-radius: 5px;
+  border: 2px solid rgb(91, 134, 50);
+  font-size: 18px;
+  height: 30px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(91, 134, 50);
+  color: white;
+}
